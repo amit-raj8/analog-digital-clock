@@ -6,6 +6,9 @@ const body = document.querySelector("body"),
 
 modeSwitch.addEventListener("click", () => {
     body.classList.toggle("dark");
+    const isDarkMode = body.classList.contains("dark");
+    modeSwitch.textContent = isDarkMode ? "Light Mode" : "Dark Mode";
+
 })
 
  const updateTime = () => {

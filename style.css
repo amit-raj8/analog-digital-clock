@@ -112,4 +112,5 @@ body.dark{
     font-size: 22px;
     font-weight: 400;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
